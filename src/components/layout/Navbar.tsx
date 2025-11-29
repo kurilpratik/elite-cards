@@ -13,11 +13,12 @@ const Navbar = () => {
   return (
     <nav className="flex justify-between border-b-1 border-b-neutral-900 px-8 py-6">
       <Link href={"/"} className="text-xl">
-        <span className="font-bold">Elite</span>Cards
+        <span className="font-merri font-bold">Elite</span>
+        Cards
       </Link>
       <ul>
         {navLinks.map((link) => (
-          <Link href={link.href} key={link.href} className="ml-8">
+          <Link href={link.href} key={link.href} className="ml-8 text-sm">
             {link.label}
           </Link>
         ))}
