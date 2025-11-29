@@ -11,7 +11,7 @@ const navLinks: NavLink[] = [
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between px-8 py-4">
+    <nav className="flex justify-between border-b-1 border-b-neutral-900 px-8 py-6">
       <Link href={"/"} className="text-xl">
         <span className="font-bold">Elite</span>Cards
       </Link>
