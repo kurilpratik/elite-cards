@@ -11,7 +11,7 @@ const navLinks: NavLink[] = [
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between border-b-1 border-b-neutral-900 px-8 py-6">
+    <nav className="fixed z-10 flex w-screen justify-between border-b-1 border-b-neutral-600 bg-transparent px-8 py-6 text-white backdrop-blur-2xl">
       <Link href={"/"} className="text-xl">
         <span className="font-merri font-bold">Elite</span>
         Cards
